@@ -3,16 +3,6 @@
 
 **UniConnect** is a modern student-centric social media platform designed to help university students connect, collaborate, and grow together academically. It provides features like posts, messaging, profile management, and study sessions—all tailored for student needs.
 
----
-
-## 🌟 Live Preview
-
-![UniConnect Home](./assets/uniconnect-home.png)
-
-> A dynamic student platform to **share ideas, message peers, join sessions**, and **build academic connections**.
-
----
-
 ## 🚀 Features Overview
 
 ### 📝 Share Posts
@@ -24,7 +14,7 @@ Chat directly with students from any branch or year. Discuss doubts and stay con
 ### 🧑‍🏫 Join Sessions
 Join or host study sessions and group collaborations. Stay on track academically with peers.
 
-### 👤 Your Profile
+### 👤 Profiles
 Showcase your academic profile: branch, year, skills, and achievements.
 
 ### 🔐 Admin Panel
