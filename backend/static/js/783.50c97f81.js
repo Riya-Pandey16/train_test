@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfrontend"]=self["webpackChunkfrontend"]||[]).push([[783],{9783:function(n,e,u){u.r(e),u.d(e,{default:function(){return s}});var r=u(6768);function t(n,e,u,t,a,d){return(0,r.uX)(),(0,r.CE)("div",null,e[0]||(e[0]=[(0,r.Lk)("h2",null,"Admin Panel",-1),(0,r.Lk)("p",null,"Manage users and posts here.",-1)]))}var a={name:"AdminView",mounted(){}},d=u(1241);const l=(0,d.A)(a,[["render",t]]);var s=l}}]);
+//# sourceMappingURL=783.50c97f81.js.map
