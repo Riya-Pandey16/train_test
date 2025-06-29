@@ -1,45 +1,59 @@
-# train_test
 # 🎓 UniConnect
 
-**UniConnect** is a modern student-centric social media platform designed to help university students connect, collaborate, and grow together academically. It provides features like posts, messaging, profile management, and study sessions—all tailored for student needs.
+UniConnect is a collaborative university social networking platform designed for students to connect, share knowledge, and engage in academic discussions. Inspired by platforms like LinkedIn, it enables seamless peer-to-peer communication, group collaboration, content sharing (notes, videos, ideas), and messaging.
 
-## 🚀 Features Overview
 
-### 📝 Share Posts
-Post ideas, notes, videos, or resources. Engage with academic content shared by your peers.
+## Features
 
-### 💬 Message Friends
-Chat directly with students from any branch or year. Discuss doubts and stay connected.
+- 🔐 User Authentication (JWT)
+- 👤 Student Profiles (Edit/View)
+- 📝 Post Feed (Ideas, Notes, YouTube Videos)
+- 🔍 Search by Name, Branch, Year, Skills
+- 💬 chats and messaging
+- 📁 File Upload Support (Profile Picture, Media in Chat)
+- 🛠️ Admin Dashboard for User/Post Moderation
+- 🌙 Dark Mode Toggle
+- 🔔 Typing Indicator, Read Receipts
+- 📱 Responsive Design
 
-### 🧑‍🏫 Join Sessions
-Join or host study sessions and group collaborations. Stay on track academically with peers.
 
-### 👤 Profiles
-Showcase your academic profile: branch, year, skills, and achievements.
+## Tech Stack
 
-### 🔐 Admin Panel
-Manage users and posts to maintain a respectful and productive platform.
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **Vue.js 3** (with Vue CLI)
-- Vue Router
-- Tailwind CSS or SCSS (custom theme)
-- Socket.IO Client (for real-time chat)
-- Fetch API (with relative URLs)
-
-### Backend
-- **Flask + Flask-SocketIO**
-- Flask-JWT-Extended (authentication)
-- SQLAlchemy + Flask-Migrate (ORM + migrations)
-- SQLite/PostgreSQL (database)
-- Blueprint-based modular structure (`auth`, `profile`, `posts`, `admin`, `chat`)
-- File upload support (profile pics, documents)
+| Frontend | Backend |
+|----------|---------|
+| Vue.js 3 (CLI) | Flask (Python) |
+| Vue Router | Flask-SocketIO |
+| Tailwind CSS | Flask-JWT-Extended |
+| Fetch API | SQLAlchemy + Flask-Migrate |
+| Socket.IO | SQLite/PostgreSQL |
 
 ---
+
+## Installation
+
+    1.  Clone the repository: `git clone [repository URL]`
+    2.  Navigate to the project directory: `cd UniConnect`
+    3.  Install dependencies and requirements: `npm install`
+    4.  Set up environment variables :
+    5.  Start the development server from fronend: `npm run build
+   
+    
+    
+## Usage
+    1.  Run the backend server by :	$env:FLASK_APP = "main.py"
+                                  	flask run --debug
+    2.  Open your browser and go to: `http://127.0.0.1:5000`
+    3.  Then get started with app
+
+ ## Contributing
+
+    We welcome contributions! Please follow these steps:
+
+    1.  Fork the repository.
+    2.  Create a new branch for your changes.
+    3.  Make your changes and commit them.
+    4.  Push your changes to your fork.
+    5.  Submit a pull request.
 
 
 
